@@ -8,7 +8,7 @@
 }
 
 body {
-
+  background-color: rgb(251, 235, 5);
 }
 
 .separator {
@@ -22,10 +22,20 @@ header {
   background-color: rgb(251, 235, 5);
 }
 
+.logo ul li{
+  display: inline;
+  float: right;
+}
+
 /* Logo image */
 .logo img {
   height: auto;
   width: 10vw;
+  display: inline;
+}
+
+.slide-bg {
+  background-color: rgb(46, 37, 130);
 }
  
  /* Slideshow container */
