@@ -113,8 +113,17 @@ li{
   font-weight: 500;
 }
 
-ul li a{
- color: rgb(46, 37, 130); 
+
+ul li a:link {
+  color: rgb(46, 37, 130); 
+}
+
+ul li a:visited {
+  color: rgb(46, 37, 130); 
+}
+
+ul li a:active {
+  color: rgb(0, 0, 0);
 }
 
 .footer{
