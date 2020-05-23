@@ -43,7 +43,7 @@ body{
     font-weight: 900;
     font-size: 50px;
     font-style: italic;
-    margin-top: 34px;
+    margin-top: 32px;
     text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
@@ -54,11 +54,12 @@ ul{
     list-style: none;
     font-size: 22px;
     top: 35px;
+    display: flex;
+    flex-flow: row;
 }
 
 
 li{
-  float: left;
   margin-right: 20px;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
   font-weight: 500;
@@ -228,14 +229,34 @@ button a {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .ceg{
+  
+  .logo img{
+    height: 64px;
+    padding: 0;
+  }
 
+  .ceg{
+    font-size: 15px;
+    margin-top: 25px;
   }
 
   ul{
-
+    font-size: 10px;
+    width: 150px;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
   }
 
+  .mySlides img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+  }
+    
   .text{
 
   }
