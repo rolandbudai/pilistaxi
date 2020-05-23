@@ -12,7 +12,7 @@ body{
     height:100vh;
     display: grid;
     grid-template-columns: auto 1fr auto;
-    grid-template-rows: 1fr 5px 1fr 5px 1fr;
+    grid-template-rows: 10vh 1vh auto 1vh 10vh;
     grid-template-areas:
     "logo ceg li"
     "sep sep sep"
@@ -33,78 +33,29 @@ body{
 
 .logo img{
     grid-area: logo;
-    height: 10vh;
+    height: 90px;
     padding-top: 5px;
 }
 
 .ceg{
     grid-area: ceg;
     justify-self: left;
-    align-self: center;
     font-weight: 900;
-    font-size: 3vw;
+    font-size: 50px;
     font-style: italic;
-    margin-top: 25px;
-    text-shadow: 1px 1px 3px rgb(190, 184, 184);
+    margin-top: 34px;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
-/* If the screen size is 601px wide or less, set the font-size */
-@media screen and (max-width: 1000px) {
-  .ceg {
-    font-size: 3.5vw;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size to: */
-@media screen and (max-width: 600px) {
-  .ceg {
-    font-size: 5.5vw;
-  }
-}
-
-/* If the screen size is 400px wide or less, set the font-size to: */
-@media screen and (max-width: 400px) {
-  .ceg {
-    font-size: 20px;
-  }
-}
 
 ul{
+    position: relative;
     grid-area: li;
     list-style: none;
-    font-size: 1.5vw;
-    margin-bottom: 0px;
-    align-self: center;
+    font-size: 22px;
+    top: 35px;
 }
 
-/* If the screen size is 1200px wide or more, set the font-size */
-@media screen and (max-width: 1200px) {
-  ul {
-    font-size: 2vw;
-  }
-}
-
-/* If the screen size is 800px wide or less, set the font-size to: */
-@media screen and (max-width: 800px) {
-  ul {
-    font-size: 2vw;
-    display: grid;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size to: */
-@media screen and (max-width: 600px) {
-  ul {
-    font-size: 3vw;
-  }
-}
-
-/* If the screen size is 400px wide or less, set the font-size to: */
-@media screen and (max-width: 400px) {
-  ul {
-    font-size: 15px;
-  }
-}
 
 li{
   float: left;
@@ -112,7 +63,6 @@ li{
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
   font-weight: 500;
 }
-
 
 ul li a:link {
   color: rgb(46, 37, 130); 
@@ -188,6 +138,7 @@ button a {
     margin-left: auto;
     margin-right: auto;
     max-width: 100vw;
+    min-height: 78vh;
   }
   
   /* Caption text */
@@ -221,14 +172,14 @@ button a {
   }
 
   .separator{
-    background-color: black;
     grid-area: sep;
+    background-color: rgb(0, 0, 0);
   }
 
   .separator2{
-    background-color: black;
     grid-area: sep2;
-  }
+    background-color: rgb(0, 0, 0);
+    }
 
 
 /* Float Shadow */
@@ -274,3 +225,80 @@ button a {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ceg{
+
+  }
+
+  ul{
+
+  }
+
+  .text{
+
+  }
+
+  footer{
+
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .ceg{
+
+  }
+
+  ul{
+
+  }
+
+  .text{
+
+  }
+
+  footer{
+    
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ceg{
+
+  }
+
+  ul{
+
+  }
+
+  .text{
+
+  }
+
+  footer{
+    
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ceg{
+
+  }
+
+  ul{
+
+  }
+
+  .text{
+
+  }
+
+  footer{
+    
+  }
+}
