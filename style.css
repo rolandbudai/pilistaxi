@@ -4,11 +4,13 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    color: rgb(46, 37, 130);    
+    color: rgb(46, 37, 130); 
+    /*background-color: rgb(251, 235, 5);*/
     background-color: rgb(251, 235, 5);
 }
 
 .grid-container{
+    background-color: rgb(251, 235, 5);
     height:100vh;
     width: 100vw;
     display: grid;
@@ -19,17 +21,7 @@ body{
     "sep sep sep"
     "carousel  carousel carousel"
     "sep2 sep2 sep2"
-    "foot foot foot"
-}
-
-@media screen and (min-width: 1200px) {
-  .grid-container{
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
+    "foot foot foot";   
 }
 
 .logo img{
@@ -47,7 +39,6 @@ body{
     margin-top: 32px;
     text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
-
 
 ul{
     position: relative;
@@ -76,6 +67,25 @@ ul li a:visited {
 
 ul li a:active {
   color: rgb(0, 0, 0);
+}
+
+.dropdown-rolunk {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-rolunk-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-rolunk:hover .dropdown-rolunk-content {
+  display: block;
 }
 
 .footer{
@@ -215,7 +225,7 @@ button a {
   }
 
   ul{
-    font-size: 10px;
+    font-size: 11px;
     width: 100px;
     top: 5px;
     margin: 0;
@@ -289,5 +299,37 @@ button a {
 
   .footer{
     
+  }
+}
+
+
+@media screen and (min-width: 1600px) {
+  .grid-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    grid-template-rows: 20vh 1vh auto 1vh 10vh;
+  }
+
+  .logo img{
+    grid-area: logo;
+    height: 180px;
+    padding-top: 5px;
+  }
+
+  .ceg{
+    font-size: 80px;
+    margin-top: 76px;
+  }
+
+  button{
+    font-size: 50px;;
+  }
+
+  ul li{
+    font-size: 35px;
+    margin-top: 55px;
   }
 }
