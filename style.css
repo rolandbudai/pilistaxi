@@ -196,27 +196,29 @@ button a {
 @media only screen and (max-width: 599px) {
   
   .logo img{
-    height: 64px;
     padding: 0;
   }
 
   .ceg{
-    font-size: 21px;
-    margin-top: 7px;
-    margin-left: 1px;
-    width: 100px;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 6px;
+    width: 150px;
   }
 
   ul{
-    font-size: 11px;
-    width: 100px;
-    top: 5px;
+    font-size: 15px;
+    top: 10px;
     margin: 0;
     padding: 0;
     display: flex;
     flex-flow: column;
     text-align: end;
   }
+
+  ul li{
+    margin-right: 10px;
+      } 
     
   .text{
     font-size: 17px;;
@@ -258,8 +260,10 @@ button a {
 
   ul {
     font-size: 20px;
-    margin-top: 22px;
+    margin-top: 45px;
     padding: 0px;
+    display: flex;
+    flex-flow: row;
    }
 
   ul li{
@@ -276,7 +280,7 @@ button a {
 
   ul {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-right: 10px;
    }
 
@@ -293,27 +297,12 @@ button a {
     margin-right: auto;
     left: 0;
     right: 0;
-    grid-template-rows: 20vh 1vh auto 1vh 10vh;
-  }
-
-  .logo img{
-    grid-area: logo;
-    height: 180px;
-    padding-top: 5px;
-  }
-
-  .ceg{
-    font-size: 80px;
-    margin-top: 76px;
-  }
-
-  button{
-    font-size: 50px;;
+    grid-template-rows: 10vh 1vh auto 1vh 10vh;
   }
 
   ul li{
     font-size: 35px;
-    margin-top: 55px;
+    margin-top: 25px;
     margin-right: 20px;
   }
 
