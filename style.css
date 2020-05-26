@@ -130,6 +130,9 @@ button a {
     max-width: 100vw;
     /* min-height: 81vh; */
     min-height: calc(100vh - 190px);
+    max-height: calc(100vh - 190px);
+    width: 100%;
+    object-fit: cover;
   }
   
   /* Caption text */
@@ -320,7 +323,7 @@ button a {
   ul {
     font-size: 32px;
     margin-right: 15px;
-    margin-top: 36px;
+    margin-top: 35px;
    }
 
    ul li{
@@ -341,10 +344,9 @@ button a {
   ul li{
     font-size: 35px;
     margin-right: 20px;
-    margin-top: 0px;
   }
 
   .mySlides img{
-    width: 1300px;
+
   }
 }
