@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Allow: /szentendre-taxi.hu
+Allow: /http://szentendre-taxi.hu/index.html
+Allow: /http://szentendre-taxi.hu/tarifak.html
+Allow: /https://www.facebook.com/Dunakanyar-Pilis-Taxi-358414257908845/?fref=ts
+
+Sitemap: http://szentendre-taxi.hu/index.html
