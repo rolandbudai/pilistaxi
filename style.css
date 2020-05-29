@@ -358,9 +358,9 @@ button a {
     margin-right: 10px;
   } 
 
- table th tr{
-   font-size: 5px;
- }
+  .rolunk th{
+    font-size: 20px;
+  }
 
   .grid-container{
     width: 100%;
@@ -421,6 +421,11 @@ button a {
   ul li{
     margin-right: 10px;
     } 
+
+    .rolunk th{
+      font-size: 25px;
+    }  
+
   }
 
 /* Large devices (laptops/desktops, 900px and up) */
