@@ -195,6 +195,7 @@ button a {
     table-layout: auto;
     font-weight: 900;
     box-shadow: 1px 2px black;
+    font-size: auto;
   }
   
   table{
@@ -211,14 +212,12 @@ button a {
     font-weight: 900;
     line-height: 50px;
     background-color: rgb(248, 234, 35);
-    font-size: 22px;
     color: rgb(46, 37, 130);
   }
 
   tr{
     line-height: 30px;
     background-color: rgba(153, 145, 53, 0.842);
-    font-size: 20px;
     color: rgba(46, 37, 130, 0.801); 
   }
 
@@ -313,6 +312,7 @@ button a {
     transform: scale(1);
   }
 }
+
 .hvr-push {
   display: inline-block;
   vertical-align: middle;
@@ -330,7 +330,6 @@ button a {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-
 
 /* Extra small devices (phones, 599px and down) */
 @media only screen and (max-width: 599px) {
@@ -357,7 +356,11 @@ button a {
 
   ul li{
     margin-right: 10px;
-      } 
+  } 
+
+ table th tr{
+   font-size: 5px;
+ }
 
   .grid-container{
     width: 100%;
@@ -374,7 +377,7 @@ button a {
     margin-right: auto;
     max-width: 100%;
   }    
-    
+  
   .text{
     font-size: 17px;
   }
