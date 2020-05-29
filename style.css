@@ -227,6 +227,10 @@ button a {
     color: rgb(46, 37, 130); 
   }
 
+  .active-row {
+    text-shadow: 1px 1px wheat;
+  }
+
   .map{
     overflow:hidden;
     padding-bottom: 56.25%;
@@ -245,6 +249,7 @@ button a {
 
   .rolunk th{
     background-color: rgba(248, 234, 35, 0.651);
+    text-shadow: 1px 1px wheat;
   }
 
   /* Caption text */
