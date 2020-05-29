@@ -163,7 +163,7 @@ button a {
     object-fit: contain;
   }
 
-  .tarifak {
+  .chessboard {
     height: 100%;
     background-color: rgb(255, 255, 255); 
     background-image:
@@ -212,7 +212,7 @@ button a {
     line-height: 50px;
     background-color: rgb(248, 234, 35);
     font-size: 22px;
-    color: rgb(46, 37, 130); ;
+    color: rgb(46, 37, 130);
   }
 
   tr{
@@ -225,6 +225,26 @@ button a {
   .active-row{
     background-color: rgb(248, 234, 35);
     color: rgb(46, 37, 130); 
+  }
+
+  .map{
+    overflow:hidden;
+    padding-bottom: 56.25%;
+    position:relative;
+    height:0;
+    border: 20px solid rgba(153, 145, 53, 0.842);
+  }
+
+  .map iframe{
+      left:0;
+      top:0;
+      height: 100%;
+      width: 100%;
+      position:absolute;
+  } 
+
+  .rolunk th{
+    background-color: rgba(248, 234, 35, 0.651);
   }
 
   /* Caption text */
@@ -267,21 +287,44 @@ button a {
     background-color: rgb(0, 0, 0);
     }
 
-  .hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
+/* Push */
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
   }
-  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 
 
 /* Extra small devices (phones, 599px and down) */
