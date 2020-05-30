@@ -360,7 +360,8 @@ button a {
   } 
 
   .rolunk th{
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 2;
   }
 
   .grid-container{
@@ -434,6 +435,7 @@ button a {
 
     .rolunk th{
       font-size: 22px;
+      line-height: 2;
     }  
   }
 
