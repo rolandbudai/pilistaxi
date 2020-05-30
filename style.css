@@ -235,7 +235,7 @@ button a {
     padding-bottom: 56.25%;
     position:relative;
     height:0;
-    border: 20px solid rgba(153, 145, 53, 0.842);
+    border: 20px solid rgba(0, 0, 0, 0.616);
   }
 
   .map iframe{
@@ -247,7 +247,7 @@ button a {
   } 
 
   .rolunk th{
-    background-color: rgba(252, 242, 110, 0.623);
+    background-color: rgba(248, 234, 35, 0.836);
     text-shadow: 1px 1px wheat;
     font-weight: 500;
   }
@@ -435,7 +435,6 @@ button a {
     .rolunk th{
       font-size: 22px;
     }  
-
   }
 
 /* Large devices (laptops/desktops, 900px and up) */
