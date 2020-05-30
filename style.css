@@ -368,7 +368,8 @@ button a {
     margin-right: auto;
     left: 0;
     right: 0;
-    grid-template-columns: 110px auto auto;
+    grid-template-columns: 110px auto 80px;
+    padding: 0;
   }  
 
   .mySlides img{
@@ -400,7 +401,7 @@ button a {
     margin-right: auto;
     left: 0;
     right: 0;
-    grid-template-columns: 110px auto 15%;
+    grid-template-columns: 110px auto 80px;
   }
 
   .mySlides img{
