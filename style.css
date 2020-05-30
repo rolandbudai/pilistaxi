@@ -5,7 +5,6 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     color: rgb(46, 37, 130); 
-    /*background-color: rgb(251, 235, 5);*/
     background-color: rgb(251, 235, 5);
 }
 
@@ -219,6 +218,7 @@ button a {
     line-height: 30px;
     background-color: rgba(153, 145, 53, 0.842);
     color: rgba(46, 37, 130, 0.801); 
+    width: 100vw;
   }
 
   .active-row{
@@ -385,6 +385,14 @@ button a {
   
   .footer{
     font-size: 10px;
+  }
+
+  tr{
+    font-size: 14px;
+  }
+
+  table{
+    padding: 2px;
   }
 }
 
