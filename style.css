@@ -235,7 +235,7 @@ button a {
     padding-bottom: 56.25%;
     position:relative;
     height:0;
-    border: 20px solid rgba(0, 0, 0, 0.616);
+    border: 10px solid rgba(0, 0, 0, 0.616);
   }
 
   .map iframe{
