@@ -247,8 +247,9 @@ button a {
   } 
 
   .rolunk th{
-    background-color: rgba(248, 234, 35, 0.651);
+    background-color: rgba(252, 242, 110, 0.623);
     text-shadow: 1px 1px wheat;
+    font-weight: 500;
   }
 
   /* Caption text */
@@ -432,7 +433,7 @@ button a {
     } 
 
     .rolunk th{
-      font-size: 25px;
+      font-size: 22px;
     }  
 
   }
