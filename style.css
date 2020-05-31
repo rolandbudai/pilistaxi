@@ -129,7 +129,6 @@ button a {
 .slideshow-container {
     grid-area: carousel;
     position: relative;   
-    /* background-color: rgb(46, 37, 130); */
     }
     
   /* Hide the images by default */
@@ -188,7 +187,7 @@ button a {
   }
 
   table, th, td {
-    border: 2px solid rgb(46, 37, 130); 
+    border: 2px solid rgb(0, 0, 0); 
     border-radius: 4px;
     text-align: center;
     table-layout: auto;
@@ -203,7 +202,7 @@ button a {
     border: none;
     border-collapse: separate;
     border-spacing: 5px;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.582);
     padding: 10px;
   }
 
@@ -216,8 +215,8 @@ button a {
 
   tr{
     line-height: 30px;
-    background-color: rgba(153, 145, 53, 0.842);
-    color: rgba(46, 37, 130, 0.801); 
+    background-color: rgba(119, 119, 113, 0.801);
+    color: rgba(2, 2, 2, 0.801); 
     width: 100vw;
   }
 
@@ -247,9 +246,12 @@ button a {
   } 
 
   .rolunk th{
-    background-color: rgba(248, 234, 35, 0.836);
+    /*background-color: rgba(248, 234, 35, 0.836);*/
     text-shadow: 1px 1px wheat;
     font-weight: 500;
+    background-image: url(img/TAXI.jpg);
+    background-size: 100%;
+    opacity: 70%;
   }
 
   /* Caption text */
@@ -434,9 +436,9 @@ button a {
     margin-right: 10px;
     } 
 
-    .rolunk th{
-      font-size: 22px;
-      line-height: 2;
+  .rolunk th{
+    font-size: 22px;
+    line-height: 2;
     }  
   }
 
