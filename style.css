@@ -341,10 +341,10 @@ button a {
   }
 
   .ceg{
-    font-size: 24px;
+    font-size: 8vw;
     margin-top: 27px;
     margin-left: 6px;
-    width: 100px;
+    width: 130px;
   }
 
   ul{
@@ -353,6 +353,7 @@ button a {
     flex-flow: column;
     text-align: end;
     align-self: center;
+    padding: 0px;
   }
 
   ul li{
