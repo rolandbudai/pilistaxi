@@ -1,1 +1,2 @@
-RewriteRule ^about$ about.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
