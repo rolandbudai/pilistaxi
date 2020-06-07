@@ -83,6 +83,18 @@ ul li a:active {
   color: rgb(0, 0, 0);
 }
 
+.footer a {
+  color: rgb(46, 37, 130); 
+}
+
+.footer a:visited {
+  color: rgb(46, 37, 130); 
+}
+
+.footer a:active {
+  color: rgb(0, 0, 0);
+}
+
 .footer{
     grid-area: foot;
     background-color: rgb(251, 235, 5);
@@ -244,9 +256,12 @@ button a {
   } 
 
   .rolunk th{
-    font-weight: 500;
-    color: rgb(46, 37, 130); 
+    font-weight: 600;
+    color: rgb(16, 16, 17); 
+    text-shadow: 1px 1px rgb(206, 196, 65);
     background-color: #e4d171;
+    background-image: url("img/taxi_bg.png");
+    background-size: cover;
   }
 
   .rolunk th p{
